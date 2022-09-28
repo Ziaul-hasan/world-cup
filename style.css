@@ -413,6 +413,9 @@ hr{
     .social-icon{
         font-size: 18px;
     }
+    .social-icon i{
+        margin: 10px;
+    }
     
     /* all group styles for mobile device */
     .goalk{
