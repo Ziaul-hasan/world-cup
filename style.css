@@ -1,0 +1,177 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat&family=Poppins:wght@400;500&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* main section styles */
+.container{
+    max-width: 1350px;
+    margin: 50px auto;
+}
+
+/* top section styles */
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px 0 40px;
+    border-radius: 25px;
+    background-color: #161616;
+    margin-bottom: 80px;
+}
+.intro-info{
+    width: 40%;
+}
+.title{
+    font-size: 70px;
+    font-weight: bolder;
+    line-height: 1.2em;
+    color: white;
+}
+.description{
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+.btn{
+    font-size: 16px;
+    background-color: red;
+    padding: 10px 30px;
+    margin-bottom: 70px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(30, 248, 30);
+}
+.fa-solid{
+    transition: transform .5s ease-out , font-size;
+}
+.btn:hover .fa-solid{
+    font-size: 20px;
+    transform: translate(25px);
+}
+.intro-img{
+    width: 60%;
+}
+.intro-img img{
+    width: 100%;
+}
+.main{
+    margin-bottom: -35px;
+}
+/* news section styles */
+.news{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.whole-box{
+    display: flex;
+    gap: 20px;
+}
+.link-btn{
+    width: 20%;
+}
+.btn-property{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #161616;
+    border-radius: 10px;
+    text-align: center;
+}
+.news-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    gap: 20px;
+    cursor: pointer;
+}
+.news-btn:hover{
+    background-color: red;
+}
+.news-btn.active{
+    background-color: red;
+}
+.news-btn a{
+    text-decoration: none;
+    color: black;
+}
+.news-btn:hover a{
+    color: white;
+}
+.news-btn.active a{
+    color: white;
+}
+.blogs{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 25px;
+}
+.blog{
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+}
+.blog img{
+    width: 341px;
+    height: 190px;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.blog-info{
+    padding: 20px;
+}
+.blog-info button{
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+.icon{
+    font-size: 16px;
+    color: #161616;
+}
+.fa-comment-dots{
+    margin-left: 30px;
+}
+
+/* upcoming match page styles */
+.match-box{
+    padding: 50px 20px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+.match{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flag img{
+    width: 94px;
+    height: 57px;
+    max-width: 100%;
+}
+small{
+    font-size: 14px;
+    font-weight: 300;
+}
