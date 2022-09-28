@@ -395,6 +395,9 @@ hr{
         grid-template-columns: repeat(1 , 1fr);
         align-items: center;
     }
+    .blog img{
+        width: 100%;
+    }
     .foot-title{
         font-size: 24px;
     }
