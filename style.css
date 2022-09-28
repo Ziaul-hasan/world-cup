@@ -64,15 +64,23 @@ body{
     font-size: 20px;
     transform: translate(25px);
 }
+
 .intro-img{
     width: 60%;
 }
 .intro-img img{
     width: 100%;
 }
+.goalk{
+    width: 30%;
+}
+.goalk img{
+    max-width: 100%;
+}
 .main{
     margin-bottom: -35px;
 }
+
 /* news section styles */
 .news{
     margin-top: 80px;
@@ -174,4 +182,54 @@ body{
 small{
     font-size: 14px;
     font-weight: 300;
+}
+
+/* all groups page styles */
+
+.groups {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+}
+.group{
+    text-align: center;
+    padding: 20px;
+    background-color: #062f55;
+    border-radius: 20px;
+    border: 5px dashed rgb(0, 37, 61);
+    box-shadow: 10px 10px 20px rgb(182, 182, 182); 
+}
+.flex-box{
+    display: flex;
+}
+.gp-fl{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+}
+.gp-fl img{
+    width: 100px;
+    height: 60px;
+    max-width: 100%;
+}
+.gp-nm{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.name{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.fa-right-long{
+    font-size: 20px;
+    color: white;
+}
+.gp-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
